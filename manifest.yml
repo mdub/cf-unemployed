@@ -1,0 +1,9 @@
+applications:
+- name: no-work
+  memory: 64M
+  instances: 1
+  framework: standalone
+  runtime: ruby19
+  command: bundle exec ./idle
+  url:
+  path: .
