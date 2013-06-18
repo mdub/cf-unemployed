@@ -1,6 +1,6 @@
 applications:
 - name: unemployed
-  memory: 64M
+  memory: 128M
   instances: 1
   framework: standalone
   runtime: ruby19
