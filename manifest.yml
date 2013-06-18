@@ -1,5 +1,5 @@
 applications:
-- name: no-work
+- name: unemployed
   memory: 64M
   instances: 1
   framework: standalone
