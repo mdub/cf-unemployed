@@ -1,6 +1,10 @@
 #! /usr/bin/env ruby
 
+$stdout.sync = true
+$stderr.sync = true
+
 while true
-  puts "Just sitting around ..."
+  $stdout.puts "Just sitting around ..."
+  $stderr.puts "badger badger badger badger ..."
   sleep 10
 end
